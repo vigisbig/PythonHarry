@@ -24,7 +24,7 @@ print(a)
 
 """What is typecasting?
 
-Type Casting is the method to convert the variable data type into a certain data type in order to the operation required to be performed by users. In this article, we will see the various technique for typecasting.
+Type Casting is the method to convert the variable data type into a certain data type in order to the operation required to be performed by users. 
 
 There can be two types of Type Casting in Python:
 

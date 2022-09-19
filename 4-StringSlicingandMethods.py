@@ -5,12 +5,13 @@
 # Using a slice() method
 # Using List/Array slicing  [ : : ] method
 
-# Using slice() method
 
 a = "Pankaj"
-print(len(a))               # Can be used to find length of string
-print(a.index("k"))         # Prints index of first occurence of letter k
+print(len(a))               # Len is a function and can be used to find length of string
+print(a.index("k"))         # Index is a method and it prints index of first occurence of letter k
 print(a.index("a",2,5))     # Prints index of letter 'a' between index 2, 5 
+
+# Using slice() method
 
 """The slice() constructor creates a slice object representing the set of indices specified by range(start, stop, step)."""
 
@@ -34,11 +35,13 @@ print(a[s1])
 print(a[s2])
 print(a[s3])
 
+# Read more: https://www.geeksforgeeks.org/string-slicing-in-python/
+
 print("--------------------------")
 
 # Using array slicing
 
-# [start:stop]          # items start through stop-1
+# [start:stop]          # items start through stop
 # [start:]              # items start through the rest of the array
 # [:stop]               # items from the beginning through stop-1
 # [:]                   # a copy of the whole array

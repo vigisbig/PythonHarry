@@ -13,18 +13,22 @@ The new line character in Python is \n
 If you see this character in a string, that means that the current line ends at that point and 
 a new line starts right after it.
 """
+
 print("Hello\nWorld!")
 print(f"Hello\nWorld!")
 
+
 """
+
 By default, print statements add a new line character "behind the scenes" at the end of the string.
 The default value of the end parameter of the built-in print function is \n, so a new line character is appended to the string.
+
 """
 print("This is a line")                                 # This is basically printing "This is a line\n" Therefore the next line is in new line
 print("This is another line")                           # This is printing "This is another line\n" so in both cases end = "\n" as per print function definition
 
 print("This is a line", end="")                         # We can change the default end value i.e. \n so this ensures that the other line does not begin in new line. 
-print("This is another line")                           # end is basically \n by default, and in above line, it's not, we can also use other values of end.
+print("This is another line")                           # end is basically \n by default, and in line above, it's not, we can also use other values of end.
 print("This is a line", end=",")                        # This end statement ensures that the other line does not begin in new line and has comma in between instead
 print("This is another line")
 print("This is a line", end=" ")                        # This end statement ensures that the other line does not begin in new line and has space in between
