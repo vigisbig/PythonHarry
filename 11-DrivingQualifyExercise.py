@@ -1,3 +1,4 @@
+
 age = int(input("Enter age: "))
 
 if 18<age<=90:

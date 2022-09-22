@@ -26,10 +26,11 @@ print(n3)                                                       # Printing n3
 del n3['Names'][1]                                              # Using del keyword to delete an element from dictionary, can be used for list,variable,tuple etc. 
 print(n3)                                                       # Printing n3
 
+print(n3.get('Names'))
+n3.update({'Sheldon':'Bazinga'})                                # Another way to add value to dictionary or check line 18
+print(n3)                                                       # Printing n3
 
-# Understanding  Reference, Shallow copy, and Deep copy in context of dictionary
-# Reference make both point to the same data, modifying original will modify both
-# Shallow copy makes two seperate copies but they have the same reference data, so modifying will modify other too
-# to the extent that it modifies exiting elements of the list
+print(n3.keys())                                                # Printing all keys of n3
+print(n3.items())                                               # Printing all key value pairs of n3
 
 # To understand difference between shallow and deep copy read file 8-PointingCopyDeepCopy
