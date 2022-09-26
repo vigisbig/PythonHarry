@@ -1,4 +1,6 @@
-n1 = int(input("Type the first number"))
-n2 = int(input("Type the second number"))
+f = open("afile.txt","r")
 
-opr 
+content = f.read(3)
+print(content)
+content = f.read(9)
+print(content)
