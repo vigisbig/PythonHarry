@@ -31,7 +31,7 @@ def calu():
     again()
 def again():
     var = input("You want to do again (Y)es or (N)o? " )
-    if var.upper == "Y":
+    if var.upper() == "Y":
         calu()
     else:
         print("See you later")
