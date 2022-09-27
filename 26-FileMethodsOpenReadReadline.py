@@ -1,5 +1,8 @@
-# Create a file by the name afile.txt and will be using it for demonstrating how file methods work
+# We will first create a file by the name afile.txt and will be using it for demonstrating how file methods work
 # Before you can read or write a file, you have to open it using Python's built-in open() function.
+
+f = open("afile.txt", "w+")
+f.write("Pankaj is a good boy\nSo are many other people")
 
 open("afile.txt")                   # open() function reads the file. Code for reading file is open(filename_extension), this will display nothing to us
 f = open("afile.txt")               # creating a file object and this would be utilized to call methods associated with it.
