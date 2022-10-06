@@ -1,3 +1,4 @@
+### Default path in terminal settings - C:\Windows\System32\cmd.exe
 ### VS code shortcuts
    - Delete complete line - ctrl + shift + k
    - Select and turn comment - ctrl +/
@@ -9,3 +10,7 @@
    - Copy text line up/down - shift + alt + arrow
    - Change all occurences - ctrl + F2
    - Backspace tab - shift + tab
+   - FullScreen ON/OFF - F11
+### Python Shortcuts
+   - list all modules that are installed - >>> help('modules')
+   - To exit python - >>> exit()

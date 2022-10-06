@@ -11,6 +11,7 @@ with open("sample.txt") as f:
     a = f.read(4)
     print(a)
 
-# Using old method to open and read file, compare it with abobe with block
+# Using old method to open and read file, compare it with block above
 f = open("sample.txt")
 print(f.readline())
+f.close()

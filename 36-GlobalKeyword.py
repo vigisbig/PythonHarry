@@ -14,11 +14,11 @@ print(x)
 
 # With use the global keyword you can change a global variable from inside a function.
 
-x = 300
+y = 300
 
 def myfunc1():
-  global x
-  x = 200
+  global y
+  y = 200
 
 myfunc1()
-print(x)
+print(y)
